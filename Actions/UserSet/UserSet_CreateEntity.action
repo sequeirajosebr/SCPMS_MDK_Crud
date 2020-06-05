@@ -1,0 +1,18 @@
+{
+	"CreateLinks": [],
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/CreateEntityFailureMessage.action",
+	"OnSuccess": "/ZMDK_CRUD_APP/Actions/CreateEntitySuccessMessage.action",
+	"Properties": {
+		"Userid": "#Control:Userid/#Value",
+		"Fullname": "#Control:Fullname/#Value",
+		"Email": "#Control:Email/#Value"
+	},
+	"Target": {
+		"EntitySet": "UserSet",
+		"Service": "/ZMDK_CRUD_APP/Services/SRV.service"
+	},
+	"ActionResult": {
+		"_Name": "create"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

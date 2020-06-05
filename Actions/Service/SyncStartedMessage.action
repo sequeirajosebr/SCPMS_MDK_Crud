@@ -1,0 +1,8 @@
+{
+	"Message": "Upload in progress...",
+	"CompletionMessage": "Upload Successful",
+	"CompletionTimeout": 7,
+	"OnSuccess": "/ZMDK_CRUD_APP/Actions/Service/UploadOffline.action",
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/Service/SyncFailureMessage.action",
+	"_Type": "Action.Type.ProgressBanner"
+}

@@ -1,0 +1,9 @@
+{
+	"Service": "/ZMDK_CRUD_APP/Services/SRV.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/ZMDK_CRUD_APP/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/Service/SyncFailureMessage.action"
+}

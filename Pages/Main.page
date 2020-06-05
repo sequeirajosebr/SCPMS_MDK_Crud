@@ -1,0 +1,31 @@
+{
+	"Caption": "Main",
+	"Controls": [{
+		"_Name": "SectionedTable0",
+		"_Type": "Control.Type.SectionedTable",
+		"Sections": [{
+			"Buttons": [{
+				"OnPress": "/ZMDK_CRUD_APP/Actions/UserSet/NavToUserSet_List.action",
+				"TextAlignment": "center",
+				"Title": "UserSet"
+			}],
+			"_Name": "SectionButtonTable0",
+			"_Type": "Section.Type.ButtonTable"
+		}]
+	}],
+	"_Name": "Main",
+	"_Type": "Page",
+	"ToolBar": {
+		"Controls": [{
+			"_Name": "LogoutToolbarItem",
+			"_Type": "Control.Type.ToolbarItem",
+			"Caption": "Logout",
+			"OnPress": "/ZMDK_CRUD_APP/Actions/Logout.action"
+		}, {
+			"_Name": "UploadToolbarItem",
+			"_Type": "Control.Type.ToolbarItem",
+			"Caption": "Sync",
+			"OnPress": "/ZMDK_CRUD_APP/Actions/Service/SyncStartedMessage.action"
+		}]
+	}
+}

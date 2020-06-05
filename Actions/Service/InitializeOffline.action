@@ -1,0 +1,15 @@
+{
+	"Service": "/ZMDK_CRUD_APP/Services/SRV.service",
+	"DefiningRequests": [{
+		"Name": "UserSet",
+		"Query": "UserSet"
+	}],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Downloading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/ZMDK_CRUD_APP/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/Service/InitializeOfflineFailureMessage.action"
+}

@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/ZMDK_CRUD_APP/Services/SRV.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/ZMDK_CRUD_APP/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/Service/CloseOfflineFailureMessage.action"
+}

@@ -1,0 +1,35 @@
+{
+	"ActionBar": {
+		"Items": [{
+			"OnPress": "/ZMDK_CRUD_APP/Actions/CloseModalPage_Cancel.action",
+			"Position": "left",
+			"SystemItem": "Cancel"
+		}, {
+			"OnPress": "/ZMDK_CRUD_APP/Actions/UserSet/UserSet_CreateEntity.action",
+			"Position": "right",
+			"SystemItem": "Save"
+		}]
+	},
+	"Caption": "Create User",
+	"Controls": [{
+		"Sections": [{
+			"Controls": [{
+				"Caption": "Userid",
+				"_Name": "Userid",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "Fullname",
+				"_Name": "Fullname",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "Email",
+				"_Name": "Email",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}]
+		}],
+		"_Name": "FormCellContainer",
+		"_Type": "Control.Type.FormCellContainer"
+	}],
+	"_Type": "Page",
+	"_Name": "UserSet_Create"
+}

@@ -1,0 +1,39 @@
+{
+	"Caption": "Update User",
+	"ActionBar": {
+		"Items": [{
+			"Position": "left",
+			"Text": "Cancel",
+			"OnPress": "/ZMDK_CRUD_APP/Actions/CloseModalPage_Cancel.action"
+		}, {
+			"Position": "right",
+			"Text": "Save",
+			"OnPress": "/ZMDK_CRUD_APP/Actions/UserSet/UserSet_UpdateEntity.action"
+		}]
+	},
+	"Controls": [{
+		"Sections": [{
+			"Caption": "",
+			"Controls": [{
+				"Caption": "Userid",
+				"Value": "{Userid}",
+				"_Name": "Userid",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "Fullname",
+				"Value": "{Fullname}",
+				"_Name": "Fullname",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "Email",
+				"Value": "{Email}",
+				"_Name": "Email",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}]
+		}],
+		"_Name": "PageOneFormCell",
+		"_Type": "Control.Type.FormCellContainer"
+	}],
+	"_Type": "Page",
+	"_Name": "UserSet_Edit"
+}

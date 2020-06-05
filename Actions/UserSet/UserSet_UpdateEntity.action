@@ -1,0 +1,19 @@
+{
+	"_Type": "Action.Type.ODataService.UpdateEntity",
+	"Target": {
+		"EntitySet": "UserSet",
+		"Service": "/ZMDK_CRUD_APP/Services/SRV.service",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"Properties": {
+		"Userid": "#Control:Userid/#Value",
+		"Fullname": "#Control:Fullname/#Value",
+		"Email": "#Control:Email/#Value"
+	},
+	"UpdateLinks": [],
+	"ActionResult": {
+		"_Name": "update"
+	},
+	"OnSuccess": "/ZMDK_CRUD_APP/Actions/UpdateEntitySuccessMessage.action",
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/UpdateEntityFailureMessage.action"
+}

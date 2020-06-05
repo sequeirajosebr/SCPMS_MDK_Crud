@@ -1,0 +1,12 @@
+{
+	"Service": "/ZMDK_CRUD_APP/Services/SRV.service",
+	"DefiningRequests": [{
+		"Name": "UserSet",
+		"Query": "UserSet"
+	}],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/Service/SyncFailureMessage.action"
+}

@@ -1,0 +1,13 @@
+{
+	"Target": {
+		"EntitySet": "UserSet",
+		"Service": "/ZMDK_CRUD_APP/Services/SRV.service",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"OnSuccess": "/ZMDK_CRUD_APP/Actions/DeleteEntitySuccessMessage.action",
+	"OnFailure": "/ZMDK_CRUD_APP/Actions/DeleteEntityFailureMessage.action",
+	"ActionResult": {
+		"_Name": "delete"
+	},
+	"_Type": "Action.Type.ODataService.DeleteEntity"
+}
