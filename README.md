@@ -1,1 +1,1 @@
-# SCPMS_MDK_Crud
+# SAP® Cloud Platform Mobile Services Demo: Mobile Development Kit (MDK) CRUD App
